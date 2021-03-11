@@ -22,202 +22,198 @@ ul {
 }
 
 .loyalty {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
-    position: relative;
-    width: 300px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #fff;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
 }
 
 .diagram {
-    position: relative;
-    width: 330px;
-    height: 330px;
-
+  position: relative;
+  width: 330px;
+  height: 330px;
 }
 .diagram-svg {
-    position: relative;
-    width: 320px;
-    height: 320px;
-
+  position: relative;
+  width: 320px;
+  height: 320px;
 }
 
 .diagram-svg__circle {
-    width: 150px;
-    height: 150px;
-    fill: none;
-    stroke-width: 10;
-    stroke: darkkhaki;
-    transform: translate(5px, 5px);
-    stroke-dasharray: 481;
-    stroke-dashoffset: 150;
-    stroke-linecap: round;
+  width: 150px;
+  height: 150px;
+  fill: none;
+  stroke-width: 10;
+  stroke: darkkhaki;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 481;
+  stroke-dashoffset: 150;
+  stroke-linecap: round;
 }
 
 .diagram-svg__circle:first-child {
-    stroke-dashoffset: calc(481 - (150 * 439) / 100);
-    stroke: rgb(245, 244, 248);
+  stroke-dashoffset: calc(481 - (150 * 439) / 100);
+  stroke: rgb(245, 244, 248);
 }
 
 .diagram-svg__circle:nth-child(2) {
-    stroke-dashoffset: calc(481 - (150 * 261) / 100);
-    stroke: rgb(81, 160, 62);
+  stroke-dashoffset: calc(481 - (150 * 261) / 100);
+  stroke: rgb(81, 160, 62);
 }
-
 
 .diagram-svg__circle:last-child {
-    stroke-dashoffset: calc(481 - (150 * 180) / 100);
-    stroke: rgb(245, 209, 5);
+  stroke-dashoffset: calc(481 - (150 * 180) / 100);
+  stroke: rgb(245, 209, 5);
 }
 
-
-
-
 .box-info {
-    max-width: 200px;
-    top: 70px;
-    left: 39px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  max-width: 200px;
+  top: 70px;
+  left: 39px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .info-list::before {
-    content: "";
-    background-image: url(./block.images/loyalty.svg);
-    opacity: 0.3;
-    width: 38px;
-    height: 46px;
-    position: absolute;
-    bottom: 260px;
-    left: 83px;
+  content: "";
+  background-image: url(./block.images/loyalty.svg);
+  opacity: 0.3;
+  width: 38px;
+  height: 46px;
+  position: absolute;
+  bottom: 260px;
+  left: 83px;
 }
 
 .info-list__item-1 {
-    font-size: 45px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    color: rgb(66, 62, 62);
+  font-size: 45px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(66, 62, 62);
 }
 
 .info-list__item-2 {
-    font-size: 25px;
-    font-family: arial Arial, sans-serif;
-    font-weight: 600;
-    color: rgb(66, 62, 62);
+  font-size: 25px;
+  font-family: arial Arial, sans-serif;
+  font-weight: 600;
+  color: rgb(66, 62, 62);
 }
 
 .info-list__item-3 {
-    font-size: 18px;
-    font-family: arial Arial, sans-serif;
-    font-weight: 600;
-    color: rgb(245, 209, 5);
+  font-size: 18px;
+  font-family: arial Arial, sans-serif;
+  font-weight: 600;
+  color: rgb(245, 209, 5);
 }
 
 .box-calculations {
-    font-size: 15.2px;
-    font-family: arial Arial, sans-serif;
-    color: rgb(139, 138, 138);
-    margin-top: 0;
+  font-size: 15.2px;
+  font-family: arial Arial, sans-serif;
+  color: rgb(139, 138, 138);
+  margin-top: 0;
 }
 
 .box-info__progress {
-    font-size: 30px;
-    color: rgb(81, 160, 62);
-    font-family: arial Arial, sans-serif;
+  font-size: 30px;
+  color: rgb(81, 160, 62);
+  font-family: arial Arial, sans-serif;
 }
 
 .loyalty-progress {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
-    fill: rgb(81, 160, 62);
+  width: 30px;
+  height: 30px;
+  fill: rgb(81, 160, 62);
 }
 
 .line-svg {
-    margin-top: -200px;
-    margin-right: 77px;
+  margin-top: -200px;
+  margin-right: 77px;
 }
 
 .loyalty-indicators {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-left: -88px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: -88px;
 }
 
 .loyalty-groups {
-    margin-right: 20px;
-    font-size: 14px;
-    font-weight: 600;
-    font-family: arial Arial, sans-serif;
-    color: rgb(66, 62, 62);
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: arial Arial, sans-serif;
+  color: rgb(66, 62, 62);
 }
 
 .loyalty-groups__item {
-    padding-bottom: 35px;
+  padding-bottom: 35px;
 }
 
 .loyalty-percents {
-    margin-right: 20px;
-    font-size: 14px;
-    font-weight: 600;
-    font-family: arial Arial, sans-serif;
-    color: rgb(66, 62, 62);
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: arial Arial, sans-serif;
+  color: rgb(66, 62, 62);
 }
 
 .loyalty-percents__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 20px;
 }
 .loyalty-percents__item span {
-    color: rgb(139, 138, 138);
-    padding-right: 10px;
+  color: rgb(139, 138, 138);
+  padding-right: 10px;
 }
 
 .loyalty-percents__item::after {
-    content: "";
-    background-image: url(./block.images/human_full.svg);
-    opacity: 0.5;
-    width: 10px;
-    height: 10px;
-    top: 19px;
-    right: 5px;
-    position: absolute;
+  content: "";
+  background-image: url(./block.images/human_full.svg);
+  opacity: 0.5;
+  width: 10px;
+  height: 10px;
+  top: 19px;
+  right: 5px;
+  position: absolute;
 }
 
 .loyalty-indicator {
-    font-size: 14px;
-    font-family: arial Arial, sans-serif;
-    color: rgb(66, 62, 62);
+  font-size: 14px;
+  font-family: arial Arial, sans-serif;
+  color: rgb(66, 62, 62);
 }
 
 .loyalty-indicator__item {
-    margin-bottom: 10px;
-    padding: 10px 8px 10px 50px;
-    border: 2px solid rgb(231, 234, 241);
-    border-radius: 6px;
-    background-color: rgb(245, 244, 248);
+  margin-bottom: 10px;
+  padding: 10px 8px 10px 50px;
+  border: 2px solid rgb(231, 234, 241);
+  border-radius: 6px;
+  background: linear-gradient(
+    to bottom,
+    rgb(81, 160, 62) 80%,
+    rgb(115, 180, 99) 20%
+  );
 }
-

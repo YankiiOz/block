@@ -211,9 +211,5 @@ ul {
   padding: 10px 8px 10px 50px;
   border: 2px solid rgb(231, 234, 241);
   border-radius: 6px;
-  background: linear-gradient(
-    to bottom,
-    rgb(81, 160, 62) 80%,
-    rgb(115, 180, 99) 20%
-  );
+  background-color: rgb(245, 244, 248);
 }
